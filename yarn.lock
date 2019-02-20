@@ -615,6 +615,10 @@
     cssnano-preset-default "^4.0.0"
     postcss "^7.0.0"
 
+"@kazupon/vue-i18n-loader@^0.3.0":
+  version "0.3.0"
+  resolved "http://registry.npm.taobao.org/@kazupon/vue-i18n-loader/download/@kazupon/vue-i18n-loader-0.3.0.tgz#e068de2d75d891275814ae28ad1fcaf1b537694f"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "http://registry.npm.taobao.org/@mrmlnc/readdir-enhanced/download/@mrmlnc/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -633,6 +637,10 @@
     chalk "^1.1.3"
     error-stack-parser "^2.0.0"
     string-width "^2.0.0"
+
+"@types/anymatch@*":
+  version "1.3.1"
+  resolved "http://registry.npm.taobao.org/@types/anymatch/download/@types/anymatch-1.3.1.tgz#336badc1beecb9dacc38bea2cf32adf627a8421a"
 
 "@types/blob-util@1.3.3":
   version "1.3.3"
@@ -683,6 +691,10 @@
   version "2.2.44"
   resolved "http://registry.npm.taobao.org/@types/mocha/download/@types/mocha-2.2.44.tgz#1d4a798e53f35212fd5ad4d04050620171cd5b5e"
 
+"@types/node@*":
+  version "11.9.4"
+  resolved "http://registry.npm.taobao.org/@types/node/download/@types/node-11.9.4.tgz#ceb0048a546db453f6248f2d1d95e937a6f00a14"
+
 "@types/node@^10.11.7":
   version "10.12.26"
   resolved "http://registry.npm.taobao.org/@types/node/download/@types/node-10.12.26.tgz#2dec19f1f7981c95cb54bab8f618ecb5dc983d0e"
@@ -722,9 +734,29 @@
   version "0.0.30"
   resolved "http://registry.npm.taobao.org/@types/strip-json-comments/download/@types/strip-json-comments-0.0.30.tgz#9aa30c04db212a9a0649d6ae6fd50accc40748a1"
 
+"@types/tapable@*":
+  version "1.0.4"
+  resolved "http://registry.npm.taobao.org/@types/tapable/download/@types/tapable-1.0.4.tgz#b4ffc7dc97b498c969b360a41eee247f82616370"
+
+"@types/uglify-js@*":
+  version "3.0.4"
+  resolved "http://registry.npm.taobao.org/@types/uglify-js/download/@types/uglify-js-3.0.4.tgz#96beae23df6f561862a830b4288a49e86baac082"
+  dependencies:
+    source-map "^0.6.1"
+
 "@types/webpack-env@^1.13.6":
   version "1.13.7"
   resolved "http://registry.npm.taobao.org/@types/webpack-env/download/@types/webpack-env-1.13.7.tgz#137a4e57aa31ab57b1baf66f5dc3b6bf085e9944"
+
+"@types/webpack@^4.4.0":
+  version "4.4.24"
+  resolved "http://registry.npm.taobao.org/@types/webpack/download/@types/webpack-4.4.24.tgz#75bc301176066f566ec54151b6101c2b45abb8b2"
+  dependencies:
+    "@types/anymatch" "*"
+    "@types/node" "*"
+    "@types/tapable" "*"
+    "@types/uglify-js" "*"
+    source-map "^0.6.0"
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.0.0-beta.2":
   version "1.0.0-beta.2"
@@ -2708,6 +2740,10 @@ deepmerge@^1.5.2:
   version "1.5.2"
   resolved "http://registry.npm.taobao.org/deepmerge/download/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
 
+deepmerge@^2.1.1:
+  version "2.2.1"
+  resolved "http://registry.npm.taobao.org/deepmerge/download/deepmerge-2.2.1.tgz#5d3ff22a01c00f645405a2fbc17d0778a1801170"
+
 default-gateway@^2.6.0:
   version "2.7.2"
   resolved "http://registry.npm.taobao.org/default-gateway/download/default-gateway-2.7.2.tgz#b7ef339e5e024b045467af403d50348db4642d0f"
@@ -2902,7 +2938,7 @@ dot-prop@^4.1.1:
   dependencies:
     is-obj "^1.0.0"
 
-dotenv@^6.2.0:
+dotenv@^6.0.0, dotenv@^6.2.0:
   version "6.2.0"
   resolved "http://registry.npm.taobao.org/dotenv/download/dotenv-6.2.0.tgz#941c0410535d942c8becf28d3f357dbd9d476064"
 
@@ -3472,6 +3508,12 @@ find-up@^3.0.0:
   resolved "http://registry.npm.taobao.org/find-up/download/find-up-3.0.0.tgz#49169f1d7993430646da61ecc5ae355c21c97b73"
   dependencies:
     locate-path "^3.0.0"
+
+flat@^4.0.0:
+  version "4.1.0"
+  resolved "http://registry.npm.taobao.org/flat/download/flat-4.1.0.tgz#090bec8b05e39cba309747f1d588f04dbaf98db2"
+  dependencies:
+    is-buffer "~2.0.3"
 
 flush-write-stream@^1.0.0:
   version "1.1.1"
@@ -4203,6 +4245,10 @@ is-binary-path@^1.0.0:
 is-buffer@^1.1.5:
   version "1.1.6"
   resolved "http://registry.npm.taobao.org/is-buffer/download/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
+
+is-buffer@~2.0.3:
+  version "2.0.3"
+  resolved "http://registry.npm.taobao.org/is-buffer/download/is-buffer-2.0.3.tgz#4ecf3fcf749cbd1e472689e109ac66261a25e725"
 
 is-callable@^1.1.4:
   version "1.1.4"
@@ -8143,9 +8189,24 @@ vue-class-component@^6.0.0, vue-class-component@^6.2.0:
   version "6.3.2"
   resolved "http://registry.npm.taobao.org/vue-class-component/download/vue-class-component-6.3.2.tgz#e6037e84d1df2af3bde4f455e50ca1b9eec02be6"
 
+vue-cli-plugin-i18n@^0.5.1:
+  version "0.5.1"
+  resolved "http://registry.npm.taobao.org/vue-cli-plugin-i18n/download/vue-cli-plugin-i18n-0.5.1.tgz#83be05be88d174a42b0abbaf83faa24fa92439cf"
+  dependencies:
+    debug "^3.1.0"
+    deepmerge "^2.1.1"
+    dotenv "^6.0.0"
+    flat "^4.0.0"
+    vue "^2.5.16"
+    vue-i18n "^8.0.0"
+
 vue-hot-reload-api@^2.3.0:
   version "2.3.2"
   resolved "http://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.2.tgz#1fcc1495effe08a790909b46bf7b5c4cfeb6f21b"
+
+vue-i18n@^8.0.0:
+  version "8.8.2"
+  resolved "http://registry.npm.taobao.org/vue-i18n/download/vue-i18n-8.8.2.tgz#57baa73dc8f215d68e4b8f2743724657cbb77591"
 
 vue-jest@^3.0.3:
   version "3.0.3"
@@ -8200,7 +8261,7 @@ vue-template-es2015-compiler@^1.6.0, vue-template-es2015-compiler@^1.8.2:
   version "1.8.2"
   resolved "http://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.8.2.tgz#dd73e80ba58bb65dd7a8aa2aeef6089cf6116f2a"
 
-vue@^2.6.6:
+vue@^2.5.16, vue@^2.6.6:
   version "2.6.6"
   resolved "http://registry.npm.taobao.org/vue/download/vue-2.6.6.tgz#dde41e483c11c46a7bf523909f4f2f816ab60d25"
 
